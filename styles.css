@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background-color: #f0e5ff;
+    color: #333333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #6a0dad, #8c52ff);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    background: url('path/to/your/background-image.jpg') center/cover no-repeat;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #4b0082;
+}
+
+.info-section, .join-section, .contact-section {
+    background-color: #8a2be2; /* Lighter purple */
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
